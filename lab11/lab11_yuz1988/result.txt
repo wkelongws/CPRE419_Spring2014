@@ -1,0 +1,6 @@
+The result is copy from the file "/scr/yuz1988/lab11/rate/part-r-00000" which contains the set of users that are to be targeted, the amount that you will spend, and the number of consumers who 
+will be eventually delivered the ad. 
+This file is in the format of a clear list of users with all relevant data 
+displayed including compensation, people can reach, total number of people can reach. 
+Finally, in the last line of the output file, it shows:
+total number of consumers:45904	              total number of users:778, total budget used:9994.779466327556

@@ -1,0 +1,9 @@
+A report describing your approach to the problem and a description of your algorithm:
+
+My algorithm is pretty simple, it used two rounds of map reduce. 
+1. In the first round, combine the two files "compensation.txt" and "log.txt" together to one file in the /scr/yuz1988/lab11/recipient folder. Also for each user, list all the consumers he could reach and count the total number of these consumers. Then calculate the rate of each user, rate is the compensation of the user divide total number of consumers (compensation/num of consumers). The lower of the rate (low compensation high number of people can reach), the more valuable of the user.
+
+2. The second round sort each record based on the user's rate in ascending order. The program keep on picking the users with high rank until the budget runs out. Note that to count the total number of consumers we could reach, I use a HashSet so that it doesn't allow replicated user.
+
+The final result is:
+total number of consumers:45904	              total number of users:778, total budget used:9994.779466327556

@@ -1,0 +1,8 @@
+Question: Think about how you might be able to get around the fact that bigrams might span lines of input. Briefly describe how you might deal with that situation?
+
+
+Potential Answer:
+
+Due to the reason that two mappers can not communicate with each other, we should change the InputFormat to change the splits sent to the mapper. By default, we use TextInputFormat, which reads content the file and teminates until meeting the end of line character. (source code: http://olylakers.iteye.com/blog/1070068)
+
+So we could simply change the readDefaultLine method in the LineReader class, substitute the end of line character (CR) to end of sentence character. In this case, the value sent to the mapper is not one line but one sentence, and key which is LongWritable (sentence offset of the whole file0 remains the same.

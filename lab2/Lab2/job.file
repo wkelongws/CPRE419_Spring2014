@@ -1,0 +1,5 @@
+hadoop fs -rmr /scr/yuz1988/lab2/exp2/output 
+
+hadoop fs -rmr /scr/yuz1988/lab2/exp2/temp 
+
+hadoop jar /home/yuz1988/lab2/exp2/Driver.jar Driver

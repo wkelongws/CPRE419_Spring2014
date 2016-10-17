@@ -1,0 +1,6 @@
+The totoal number of triangle: 7515023
+
+There is one line:
+5489070 5489070
+
+After I have cared this special case in my program, I got the anwser (the result in the output folder can be divided by 3).

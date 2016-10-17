@@ -1,0 +1,5 @@
+The answer of experiment 2
+
+binary string: 00000100
+
+int: 4

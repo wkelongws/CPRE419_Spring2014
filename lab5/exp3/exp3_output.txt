@@ -1,0 +1,25 @@
+1. All the hashtags are kept as original form
+
+WesthamNews2013 (number of post: 4995)  EPL (freq: 4995)
+Twittyfooty (number of post: 3811)      soccernews (freq: 3811)
+FaisalBnNasser (number of post: 3293)   PlayStation (freq: 3293)
+elene_rush (number of post: 2178)       ITV (freq: 3174)
+TheSoccer_news (number of post: 1887)   soccer (freq: 3774)
+propertiesindia (number of post: 1872)  NewDelhi (freq: 1872)
+ceoMARS (number of post: 1480)  BBC (freq: 1480)
+JonP9 (number of post: 1480)    CNN (freq: 1480)
+ZupFollowBack (number of post: 1480)    BBC (freq: 1480)
+JemoCruz (number of post: 1296) newdelhi (freq: 1296)
+
+2. All the hashtags are converted to lower cases
+
+WesthamNews2013 number of post: 4995    epl freq: 4995
+Twittyfooty number of post: 3811        soccernews freq: 3811
+FaisalBnNasser number of post: 3293     playstation freq: 3293
+elene_rush number of post: 2178 itv freq: 3174
+TheSoccer_news number of post: 1887     soccer freq: 3774
+propertiesindia number of post: 1872    newdelhi freq: 1872
+JonP9 number of post: 1480      marsocial freq: 1480
+ceoMARS number of post: 1480    marsocial freq: 1480
+ZupFollowBack number of post: 1480      marsocial freq: 1480
+JemoCruz number of post: 1296   newdelhi freq: 1296
